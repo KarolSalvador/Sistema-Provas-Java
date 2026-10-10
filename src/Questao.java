@@ -21,7 +21,7 @@ public abstract class Questao {
         return valor;
     }
 
-    // Método setValor com validação de encapsulamento exigida pelo trabalho
+    // Método setValor com validação de encapsulamento
     public void setValor(double valor) {
         if (valor <= 0) {
             throw new IllegalArgumentException("O valor da questão deve ser maior que zero!");
